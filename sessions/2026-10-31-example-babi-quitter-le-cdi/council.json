@@ -1,0 +1,27 @@
+{
+  "title": "Babi doit quitter son CDI ?",
+  "decision": "Dois-je quitter mon CDI pour lancer mon business ?",
+  "mode": "full",
+  "options": [
+    { "id": "A", "label": "Quitter le CDI maintenant" },
+    { "id": "B", "label": "Garder le CDI jusqu'à un seuil, puis partir" },
+    { "id": "C", "label": "Temps partiel ou congé création" },
+    { "id": "D", "label": "Rester en CDI, ne rien changer" }
+  ],
+  "weights": {
+    "buffett": { "weight": 3, "reason": "L'épargne et la sécurité du foyer sont en jeu" },
+    "hormozi": { "weight": 3, "reason": "Tout dépend d'une offre qui passe de 900 à 6 000 €" },
+    "bezos": { "weight": 2, "reason": "Réversibilité du choix et regret à long terme" },
+    "naval": { "weight": 2, "reason": "Vendre son temps ou construire un actif" }
+  },
+  "seats": ["bezos", "buffett", "hormozi", "naval"],
+  "brief": "Babi, 35 ans, à Lyon, est en CDI dans le développement web : 3 000 € net par mois, un enfant, six mois d'épargne. Le soir, Babi crée des sites pour des restaurants, environ 900 € de plus par mois. Objectif : 6 000 € par mois et vivre trois mois par an au Maroc.",
+  "assumptions": [
+    "Environ un site vendu par mois, autour de 900 € (assumed)",
+    "Pas de revenu récurrent (assumed)",
+    "Épargne d'environ 15 000 €, dépenses de 2 500 € par mois (assumed)",
+    "Le salaire de Babi paie l'essentiel du foyer (assumed)",
+    "Environ 10 heures par semaine le soir (assumed)",
+    "Horizon de trois ans (assumed)"
+  ]
+}

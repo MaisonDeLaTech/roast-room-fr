@@ -1,0 +1,45 @@
+{
+  "label": "GO",
+  "call": "Ne quitte pas ton CDI maintenant. Prends l'option B : garde ton salaire, change ton offre tout de suite, et pars avec 30 000 € de côté et six mois à 2 500 € nets, dont 1 500 € récurrents nets.",
+  "recommended": "B",
+  "why": [
+    { "point": "Partir maintenant laisse un manque de 1 600 € par mois : 15 000 € tiennent environ neuf mois.", "seat": "Buffett", "framework": "Marge de sécurité" },
+    { "point": "Atteindre 6 000 € avec des sites demanderait 290 heures par mois : le problème est l'offre, pas le CDI.", "seat": "Hormozi", "framework": "Équation de valeur" },
+    { "point": "La limite est la demande, pas les heures. Le temps partiel doublerait le délai pour atteindre 30 000 €.", "seat": "Bezos", "framework": "Type 1 et Type 2" },
+    { "point": "Un abonnement peut suivre Babi au Maroc, s'il reste sous une heure par client et par mois.", "seat": "Naval", "framework": "Levier" }
+  ],
+  "minority": {
+    "seat": "Bezos",
+    "quote": "Et plus le seuil est haut, plus il risque de glisser.",
+    "would_have_to_be_true": "Babi atteint son objectif plus vite en partant plus tôt que le seuil retenu."
+  },
+  "next_steps": [
+    { "when": "D'ici le 7 novembre 2026", "action": "Appeler les dix derniers restaurants clients et proposer le suivi à 150 € par mois." },
+    { "when": "D'ici le 30 novembre 2026", "action": "Compter les paiements reçus, puis tester 60 € si besoin." },
+    { "when": "D'ici le 31 janvier 2027", "action": "Créer un modèle de site et en livrer un en 15 heures maximum." }
+  ],
+  "kill_criteria": "Si moins de 3 clients sur 10 paient à 150 € puis à 60 €, Babi arrête cette offre et en cherche une autre avant de réduire son temps de travail.",
+  "conditions": [
+    "D'ici le 30 novembre 2026, au moins 3 anciens clients sur 10 paient un trimestre à 150 € par mois. Sinon, test à 60 € avec moins de contenu.",
+    "Un site livré en 15 heures maximum d'ici le 31 janvier 2027, et une heure maximum par client et par mois, mesurée sur trois mois.",
+    "Moins de 5 % de clients perdus par mois, sur six mois.",
+    "Les 15 000 € d'épargne actuels restent intacts.",
+    "Temps partiel si la demande dépasse 10 heures par semaine deux mois de suite et si le récurrent couvre 600 €, avec durée et droit de retour obtenus par écrit.",
+    "Départ avec 30 000 € de côté et six mois de suite à 2 500 € nets, dont 1 500 € récurrents nets venus de clients à 150 €.",
+    "Décision écrite le 31 octobre 2027. Avec moins de 5 clients récurrents, changer d'offre ou de cible."
+  ],
+  "fights": [
+    { "crux": "Faut-il réduire le temps de travail tout de suite ?", "story": "Bezos disait oui, à 80 %. Hormozi et Naval ont répondu que des heures en plus ne servent à rien sans demande. Bezos a changé d'avis, et le temps partiel devient une passerelle." },
+    { "crux": "Quel seuil pour partir ?", "story": "Les chiffres allaient de 1 000 à 2 500 € récurrents. La résolution retient 1 500 € nets, soit 13 clients à 150 € avec 20 % de charges supposées." },
+    { "crux": "Quelle offre vendre ?", "story": "Bezos, Buffett et Naval proposaient 40 à 60 € par mois. Le calcul de Hormozi a gagné : avec les départs, 60 € plafonne à 3 600 €. Les trois sont passés à 150 €, avec un repli moins cher à tester." }
+  ],
+  "amendments": [
+    { "seat": "Bezos", "amendment": "Obtenir par écrit la durée du temps partiel et le droit de revenir à plein temps.", "adopted": true, "reason": "Aucun conseiller ne s'y oppose." },
+    { "seat": "Buffett", "amendment": "Compter 1 500 € récurrents nets, soit 13 clients à 150 €.", "adopted": true, "reason": "Hormozi arrive au même calcul, et personne ne le conteste." },
+    { "seat": "Hormozi", "amendment": "Compter 1 500 € récurrents nets de charges, soit 1 875 € encaissés.", "adopted": true, "reason": "Buffett arrive au même calcul, et personne ne le conteste." },
+    { "seat": "Naval", "amendment": "Compter le seuil de départ avec des clients à 150 €, pas avec le repli à 60 €.", "adopted": true, "reason": "Aucun conseiller ne s'y oppose, et le plafond à 60 € reste sans réponse." }
+  ],
+  "cheapest_test": "Dix appels et de vrais paiements : au moins 3 trimestres payés sur 10.",
+  "revisit": "Le 31 octobre 2027, avec le nombre de clients, le taux de départ, l'épargne et le revenu net mensuel.",
+  "override_note": ""
+}

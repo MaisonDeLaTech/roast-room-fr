@@ -1,0 +1,28 @@
+{
+  "cruxes": [
+    {
+      "question": "Faut-il réduire le temps de travail tout de suite ?",
+      "sides": [
+        { "position": "Oui, passer à 80 % maintenant", "seats": ["Bezos"] },
+        { "position": "Non, garder tout le salaire d'abord", "seats": ["Buffett", "Hormozi", "Naval"] }
+      ]
+    },
+    {
+      "question": "Quel seuil autorise Babi à quitter le CDI ?",
+      "sides": [
+        { "position": "30 000 € de côté, 2 000 € par mois", "seats": ["Buffett"] },
+        { "position": "3 000 € par mois, dont 2 000 € récurrents", "seats": ["Hormozi"] },
+        { "position": "2 500 € récurrents", "seats": ["Naval"] }
+      ]
+    },
+    {
+      "question": "Quelle offre récurrente vendre aux restaurants ?",
+      "sides": [
+        { "position": "Petit abonnement, 40 à 60 € par mois", "seats": ["Bezos", "Buffett", "Naval"] },
+        { "position": "Suivi à 150 €, site à 2 000 €", "seats": ["Hormozi"] }
+      ]
+    }
+  ],
+  "unanimous": false,
+  "note": "Personne ne veut partir maintenant. Le conseil se dispute sur le rythme, le seuil de départ et l'offre."
+}

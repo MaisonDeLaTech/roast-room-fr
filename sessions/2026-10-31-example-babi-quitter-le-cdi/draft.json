@@ -1,0 +1,22 @@
+{
+  "option": "B",
+  "label": "GO",
+  "recommendation": "Babi garde le CDI, change d'offre tout de suite et ne part que lorsque les chiffres du départ sont atteints.",
+  "conditions": [
+    "D'ici le 30 novembre 2026, 3 anciens clients sur 10 paient un trimestre à 150 € par mois, sinon test à 60 € avec moins de contenu.",
+    "Un site livré en 15 heures maximum d'ici le 31 janvier 2027, et une heure maximum par client et par mois.",
+    "Moins de 5 % de clients perdus par mois, sur six mois.",
+    "Les 15 000 € d'épargne actuels restent intacts.",
+    "Temps partiel si la demande dépasse 10 heures par semaine deux mois de suite et si le récurrent couvre 600 €.",
+    "Départ avec 30 000 € de côté et six mois de suite à 2 500 € nets, dont 1 500 € récurrents.",
+    "Décision écrite le 31 octobre 2027. Avec moins de 5 clients récurrents, changer d'offre ou de cible."
+  ],
+  "next_steps": [
+    "D'ici le 7 novembre 2026 : appeler les dix derniers restaurants clients.",
+    "D'ici le 30 novembre 2026 : compter les paiements, puis tester 60 € si besoin.",
+    "D'ici le 31 janvier 2027 : créer un modèle de site livré en 15 heures.",
+    "Le 31 octobre 2027 : décision écrite."
+  ],
+  "cheapest_test": "Dix appels et de vrais paiements : au moins 3 trimestres payés sur 10.",
+  "kill_criteria": "Moins de 3 clients sur 10 paient à 150 € puis à 60 € : arrêter cette offre avant de réduire le temps de travail."
+}
